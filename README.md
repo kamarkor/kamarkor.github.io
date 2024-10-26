@@ -10,7 +10,7 @@ work in progress...
 
 ## Contact
 You can find me on [LinkedIn](https://www.linkedin.com/in/kamarkoraibi) or send me a message below:
-<form action="https://formspree.io/f/xyzykknr" method="POST" style="display: flex; flex-direction: column; width: 300px;">
+<form action="https://formspree.io/f/xyzykknr" method="POST" onsubmit="submitForm(event) style="display: flex; flex-direction: column; width: 300px;">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
     <label for="email">Email Address:</label>
@@ -19,3 +19,31 @@ You can find me on [LinkedIn](https://www.linkedin.com/in/kamarkoraibi) or send 
     <textarea id="message" name="message" rows="3" required></textarea>
     <button type="submit" style="margin-top: 10px;">Message Me</button>
 </form>
+<p id="confirmationMessage" style="display: none; color: green;">Message sent!</p>
+
+<script>
+function submitForm(event) {
+    event.preventDefault(); // Empêche le formulaire de se soumettre normalement
+
+    const form = document.getElementById("contactForm");
+    const confirmationMessage = document.getElementById("confirmationMessage");
+
+    // Envoie le formulaire via Fetch API
+    fetch(form.action, {
+        method: "POST",
+        body: new FormData(form),
+        headers: {
+            'Accept': 'application/json'
+        }
+    }).then(response => {
+        if (response.ok) {
+            form.style.display = "none"; // Cache le formulaire
+            confirmationMessage.style.display = "block"; // Affiche le message de confirmation
+        } else {
+            alert("Oops! There was a problem submitting your form.");
+        }
+    }).catch(error => {
+        alert("Oops! There was a problem submitting your form.");
+    });
+}
+</script>
