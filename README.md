@@ -19,15 +19,14 @@ You can find me on [LinkedIn](https://www.linkedin.com/in/kamarkoraibi) or send 
     <textarea id="message" name="message" rows="3" required></textarea>
     <button type="submit" style="margin-top: 10px;">Message Me</button>
 </form>
+
 <p id="confirmationMessage" style="display: none; color: green;">Message sent!</p>
 
 <script>
 function submitForm(event) {
     event.preventDefault(); // Empêche le formulaire de se soumettre normalement
-
     const form = document.getElementById("contactForm");
     const confirmationMessage = document.getElementById("confirmationMessage");
-
     // Envoie le formulaire via Fetch API
     fetch(form.action, {
         method: "POST",
