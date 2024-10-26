@@ -3,3 +3,5 @@ logo: /assets/img/bitmoji_kk.png
 description: Data Scientist
 show_downloads: true
 theme: jekyll-theme-minimal
+social:
+  linkedin: "https://www.linkedin.com/in/kamarkoraibi/"
