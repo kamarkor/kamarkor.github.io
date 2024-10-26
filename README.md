@@ -10,7 +10,7 @@ work in progress...
 
 ## Contact
 You can find me on [LinkedIn](https://www.linkedin.com/in/kamarkoraibi) or send me a message below:
-<form action="https://formspree.io/f/xyzykknr" method="POST">
+<form action="https://formspree.io/f/xyzykknr" method="POST" style="display: flex; flex-direction: column; width: 300px;">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
     <label for="email">Email Address:</label>
