@@ -15,7 +15,7 @@ You can find me on [LinkedIn](https://www.linkedin.com/in/kamarkoraibi) or send 
     <input type="text" id="name" name="name" required>
     <label for="email">Email Address:</label>
     <input type="email" id="email" name="_replyto" required>
-    <label for="message" style="display: block; text-align: center;">Message:</label>
+    <label for="message">Message:</label>
     <textarea id="message" name="message" rows="4" required></textarea>
     <button type="submit">Message Me</button>
 </form>
