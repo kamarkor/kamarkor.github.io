@@ -9,7 +9,7 @@ work in progress...
 work in progress...
 
 ## Contact
-You can find me on [LinkedIn](https://www.linkedin.com/in/kamarkoraibi) or send me a message below:
+You can follow me on [LinkedIn](https://www.linkedin.com/in/kamarkoraibi) or send me a message below:
 <form action="https://formspree.io/f/xyzykknr" method="POST" style="display: flex; flex-direction: column; width: 300px;">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
@@ -17,5 +17,5 @@ You can find me on [LinkedIn](https://www.linkedin.com/in/kamarkoraibi) or send 
     <input type="email" id="email" name="_replyto" required>
     <label for="message">Message:</label>
     <textarea id="message" name="message" rows="3" required></textarea>
-    <button type="submit" style="margin-top: 10px;">Message Me</button>
+    <button type="submit" style="margin-top: 10px;">message me</button>
 </form>
