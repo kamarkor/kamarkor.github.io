@@ -56,4 +56,5 @@ Despite its advantages, LLM-as-a-judge comes with several limitations and challe
 
 ## Conclusion :dart:
 
-LLM-as-a-judge is a promising approach to improving AI systems by automating evaluation and refining model responses. While challenges exist, careful design and testing can help create more reliable AI judges. As LLMs continue to evolve, leveraging them to assess and enhance each other will be essential in driving AI toward higher levels of quality and trustworthiness.
+LLM-as-a-judge is an interesting approach which speeds up evaluations, reduces the reliance on human reviewers while providing feedback. By setting clear prompts and criteria, this approach reveals both strengths and weaknesses across different models.
+Next, you could fine-tune LLM judges for specific tasks to align them with human judgment. Or, try using multiple LLM judges and averaging their scores to reduce bias. Since the judge tends to prefer answers similar to its own, bigger models might help lessen that bias.
