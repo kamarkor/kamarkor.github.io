@@ -17,7 +17,7 @@
 ## Writings
 work in progress...
 
-## Connect with me
+## Let's connect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kamarkoraibi/)
 [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/kamarkor)
 [![VSCO](https://img.shields.io/badge/VSCO-black?logo=vsco&logoColor=white)](https://vsco.co/kamarko)
