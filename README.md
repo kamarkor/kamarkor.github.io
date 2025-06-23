@@ -1,5 +1,5 @@
 ## About Me
-<p style="text-align: justify;">Hello! I am Kamar, a data scientist at EDF, one of the world’s largest energy companies. I am currently dedicated to developing impactful solutions in NLP and Generative AI. French-educated, I combine savoir-faire with adaptability to navigate complex challenges. Outside the office, I am a traveler, a photographer, and sometimes on the tennis court. Dive in, and discover my journey in data science and AI 😊</p>
+<p style="text-align: justify;">Hello! I am Kamar, a data scientist at EDF, one of the world’s largest energy companies. I am currently dedicated to developing impactful solutions in NLP and Generative AI. I combine savoir-faire with adaptability to navigate complex challenges. Outside the office, I am a traveler, a photographer, and sometimes on the tennis court. Dive in, and discover my journey in data science and AI 😊</p>
 
 ## Work Experience
 #### Data Scientist @EDF (September 2021 - Present)
@@ -17,8 +17,12 @@
 ## Writings
 work in progress...
 
-## Contact
-You can follow me on [LinkedIn](https://www.linkedin.com/in/kamarkoraibi) or send me a message below:
+## Connect with me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kamarkoraibi/)
+[![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/kamarkor)
+[![VSCO](https://img.shields.io/badge/VSCO-black?logo=vsco&logoColor=white)](https://vsco.co/kamarko)
+
+or send me a message below:
 <form action="https://formspree.io/f/xyzykknr" method="POST" style="display: flex; flex-direction: column; width: 300px;">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
@@ -26,5 +30,5 @@ You can follow me on [LinkedIn](https://www.linkedin.com/in/kamarkoraibi) or sen
     <input type="email" id="email" name="_replyto" required>
     <label for="message">Message:</label>
     <textarea id="message" name="message" rows="3" required></textarea>
-    <button type="submit" style="margin-top: 10px;">message me</button>
+    <button type="submit" style="margin-top: 10px;">send</button>
 </form>
