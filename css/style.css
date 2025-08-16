@@ -118,3 +118,7 @@ button:hover {
   text-align: justify; /* ou left, right, center selon ton choix */
 }
 
+#experience p {
+  text-align: justify;
+}
+
