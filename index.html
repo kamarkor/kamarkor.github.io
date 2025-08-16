@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>resume</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h1>Kamar Koraibi</h1>
+      <img src="assets/bitmoji_kk.png" alt="Profile Photo" class="profile-pic">
+      <nav>
+        <a href="#home">About me</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#writings">Writings</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/kamarkoraibi" target="_blank">
+          <img src="assets/linkedin.png" alt="LinkedIn" class="icon">
+        </a>
+        <a href="https://github.com/yourusername" target="_blank">
+          <img src="assets/github-logo.png" alt="GitHub" class="icon">
+        </a>
+        <a href="https://vsco.co/kamarko" target="_blank">
+          <img src="assets/VSCO.png" alt="VSCO" class="icon">
+        </a>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content">
+      <section id="home">
+        <h1>About me</h1>
+        <p>Hello! I am Kamar, a data scientist at EDF, one of the world’s largest energy companies. I am currently dedicated to developing impactful solutions in NLP and Generative AI. I combine savoir-faire with adaptability to navigate complex challenges. Outside the office, I am a traveler, a photographer, and sometimes on the tennis court. Dive in, and discover my journey in data science and AI!<p>
+      </section>
+
+<section id="experience">
+  <h1>Experience</h1>
+
+  <div class="experience-item">
+    <h2>Data Scientist @EDF</h2>
+    <p class="date">2021 – Present</p>
+    <ul>
+      <li>Developed a RAG-based chatbot to support business users in retrieving relevant domain-specific information, using LLMs and vector search on AWS.</li>
+      <li>Built a semantic search engine to assist customer advisors by suggesting contextually relevant content in order to improve response speed and consistency.</li>
+      <li>IContributed to the development of text classification models on call transcriptions, combining deep learning approaches and rule-based (regex) methods depending on the use case.</li>
+      <li>Led a customer feedback classification project, coordinating between tech and business teams.
+      <li>Participated in the evaluation and integration of speech-to-text and conversation analysis solutions.
+    </ul>
+  </div>
+
+</section>
+
+
+      <section id="education">
+        <h1>Education</h1>
+        <ul>
+          <li><strong>Université Paris 1 Panthéon-Sorbonne</strong> – Master of Science - Statistics, Data Science</li>
+          <li><strong>Universidad Carlos III de Madrid</strong> – Erasmus Exchange</li>
+          <li><strong>Université Paris-Est Créteil</strong> – Bachelor’s Degree - Economics, Mathematics</li>
+        </ul>
+      </section>
+
+      <section id="skills">
+        <h1>Skills</h1>
+        <ul>
+          <li>Python, R, SQL, HTML, CSS, JavaScript</li>
+          <li>Machine Learning & AI</li>
+          <li>VSCode, Replit, Linux, Docker, Git</li>
+          <li>Cloud (AWS, GCP)</li>
+          <li>MLFlow, Dash, Tableau, SAS, Pack Office</li>
+        </ul>
+      </section>
+
+      <section id="certifications">
+        <h1>Certifications</h1>
+        <ul>
+          <li>AWS Security Essentials (AWS)</li>
+          <li>AWS Technical Essentials (AWS)</li>
+          <li>Generative AI with LLMs (AWS/Coursera)</li>
+          <li>Deep Learning Specialization (Coursera)</li>
+          <li>Programming with JavaScript (Meta)</li>
+          <li>Google Project Management (Google)</li>
+        </ul>
+      </section>
+
+      <section id="writings">
+        <h1>Writings</h1>
+        <ul>
+          <p>work in progress...</p>
+        </ul>
+      </section>
+
+        <section id="contact">
+        <h1>Contact Me</h1>
+        <form action="https://formspree.io/f/mabcdxyz" method="POST">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <!-- Hidden field to avoid spam -->
+            <input type="text" name="_gotcha" style="display:none">
+
+            <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+/* Layout */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+  background: #222;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2erm 1rem;
+  font-size: 20px;
+}
+
+.sidebar h1 {
+  position: relative;
+  top: 40px;       /* descend le texte de 20px */
+  text-align: center;
+  font-size: 30px;
+  margin: 0;       /* évite que margin pousse l'image */
+}
+
+
+.profile-pic {
+  width: 300px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+}
+
+.sidebar nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.sidebar nav a:hover {
+  background: #0078ff;
+  border-radius: 6px;
+}
+
+.social-links {
+  margin-top: 2rem;
+}
+
+.icon {
+  width: 30px;
+  margin: 0.5rem;
+}
+
+.vsco-icon {
+  width: 45px;
+}
+
+/* Content */
+.content {
+  margin-left: 300px;
+  padding: 2rem;
+  max-width: 900px;
+}
+
+section {
+  min-height: 3rem 1rem;
+  padding: 3rem 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.highlight {
+  color: #0078ff;
+}
+
+
+/* Form */
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #0078ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005fcc;
+}
+
+/* Align */
+#about p {
+  text-align: justify; /* ou left, right, center selon ton choix */
+}
+
