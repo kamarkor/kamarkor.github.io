@@ -6,7 +6,21 @@
   <title>resume</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
+
+<script>
+function toggleMenu() {
+  document.getElementById("mobileMenu").classList.toggle("active");
+}
+</script>
+
+
+
 <body>
+  <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+<aside class="sidebar">
+  <!-- ton contenu sidebar habituel -->
+</aside>
+
   <div class="container">
     <!-- Sidebar -->
     <aside class="sidebar">
@@ -33,6 +47,31 @@
         </a>
       </div>
     </aside>
+
+    <!-- Menu mobile caché -->
+  <div class="mobile-menu" id="mobileMenu">
+    <h1>Kamar Koraibi</h1>
+    <a href="#about" onclick="toggleMenu()">About me</a>
+    <a href="#experience" onclick="toggleMenu()">Experience</a>
+    <a href="#education" onclick="toggleMenu()">Education</a>
+    <a href="#skills" onclick="toggleMenu()">Skills</a>
+    <a href="#certifications" onclick="toggleMenu()">Certifications</a>
+    <a href="#writings" onclick="toggleMenu()">Writings</a>
+    <a href="#contact" onclick="toggleMenu()">Contact</a>
+
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/kamarkoraibi" target="_blank">
+          <img src="assets/linkedin.png" alt="LinkedIn" class="icon">
+        </a>
+        <a href="https://github.com/kamarkor" target="_blank">
+          <img src="assets/github.png" alt="GitHub" class="icon">
+        </a>
+        <a href="https://vsco.co/kamarko" target="_blank">
+          <img src="assets/vsco.png" alt="VSCO" class="vsco-icon">
+        </a>
+      </div>
+  </div>
+  
 
     <!-- Main Content -->
     <main class="content">
@@ -65,7 +104,7 @@ Curious? Let’s connect and see where our passions collide, whether it is in AI
       <section id="education">
         <h1>Education</h1>
         <ul>
-          <li><strong>Université Paris 1 Panthéon-Sorbonne</strong> - Master of Science - Statistics, Data Science</li>
+          <li><strong>Université Paris 1 Panthéon-Sorbonne</strong> - Master's Degree - Statistics, Data Science</li>
           <li><strong>Universidad Carlos III de Madrid</strong> - Erasmus Exchange</li>
           <li><strong>Université Paris-Est Créteil</strong> - Bachelor's Degree - Economics, Mathematics</li>
         </ul>
@@ -108,11 +147,11 @@ Curious? Let’s connect and see where our passions collide, whether it is in AI
           method="POST"
         >
           <label>
-            Your email:
+            <p>Your email:</p>
             <input type="email" name="email">
           </label>
           <label>
-            Your message:
+            <p>Your message:</p>
             <textarea name="message"></textarea>
           </label>
           <!-- your other form fields go here -->

@@ -24,6 +24,7 @@ body {
   align-items: center;
   padding: 2erm 1rem;
   font-size: 20px;
+  overflow-y: auto;
 }
 
 .sidebar h1 {
@@ -120,5 +121,77 @@ button:hover {
 
 #experience p {
   text-align: justify;
+}
+
+/* Bouton hamburger */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 2000;
+  color: white;
+  background: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Menu mobile caché par défaut */
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background: #111;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  padding: 50px 20px;
+  z-index: 1500;
+}
+
+.mobile-menu a {
+  color: white;
+  text-decoration: none;
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+/* Adaptation mobile */
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: none; /* cache la sidebar classique */
+  }
+
+  .hamburger {
+    display: block; /* montre le bouton hamburger */
+  }
+
+  main {
+    margin-left: 0 !important; /* le texte prend toute la largeur */
+    padding: 15px;
+    width: 100%;  
+    text-align: justify; /* ton texte est bien aligné */
+  }
+
+  .mobile-menu {
+    display: none;
+    flex-direction: column;
+    background: #111;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    max-width: 250px; /* limite en px si tu veux */
+    height: 100%;
+    padding: 50px 20px;
+    z-index: 1500;
+  }
+
+  .mobile-menu.active {
+    display: flex;
+  }
 }
 
