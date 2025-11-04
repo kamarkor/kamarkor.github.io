@@ -165,6 +165,7 @@ button:hover {
     display: none; /* cache la sidebar classique */
   }
 
+  
   .hamburger {
     display: block; /* montre le bouton hamburger */
   }
@@ -193,5 +194,7 @@ button:hover {
   .mobile-menu.active {
     display: flex;
   }
+
+
 }
 
