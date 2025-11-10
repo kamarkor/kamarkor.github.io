@@ -10,7 +10,7 @@ body {
   display: flex;
   min-height: 100vh;
 }
-
+ 
 .sidebar {
   position: fixed;
   top: 0;
