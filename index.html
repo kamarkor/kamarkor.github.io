@@ -165,27 +165,136 @@ Curious? Let’s connect and see where our passions collide, whether it is in AI
 
 <section id="skills">
   <h1>Skills</h1>
-  <ul>
-    <li><strong>AI & Data Science:</strong> NLP, LLMs, RAG Systems, Computer Vision</li>
-    <li><strong>Programming:</strong> Python, R, SQL, JavaScript, HTML/CSS</li>
-    <li><strong>Cloud & MLOps:</strong> AWS, GCP, MLflow, Docker, Git, Linux, VS Code, Replit</li>
-    <li><strong>Data Visualization:</strong> Tableau, Matplotlib, Seaborn</li>
-    <li><strong>Other Tools:</strong> SAS, Microsoft Office Suite</li>
+  
+  <!-- Technical Skills -->
+  <h3>Technical Skills</h3>
+  <ul style="display: flex; flex-wrap: wrap; gap: 6px; list-style: none; padding: 0; margin: 0;">
+    <li style="background: #f2f2f2; padding: 4px 10px; border-radius: 12px;">
+      <strong>AI & Data Science:</strong> NLP, LLMs, RAG Systems, ML, Deep Learning, Computer Vision
+    </li>
+    <li style="background: #f2f2f2; padding: 4px 10px; border-radius: 12px;">
+      <strong>Programming:</strong> Python, R, SQL, JavaScript, HTML/CSS
+    </li>
+    <li style="background: #f2f2f2; padding: 4px 10px; border-radius: 12px;">
+      <strong>Cloud & MLOps:</strong> AWS, GCP, MLflow, Docker, Git, Linux, VSCode, Replit
+    </li>
+    <li style="background: #f2f2f2; padding: 4px 10px; border-radius: 12px;">
+      <strong>Data Visualization:</strong> Tableau, Matplotlib, Seaborn
+    </li>
+    <li style="background: #f2f2f2; padding: 4px 10px; border-radius: 12px;">
+      <strong>Other Tools:</strong> SAS, Microsoft Office Suite
+    </li>
+  </ul>
+  <!-- Soft skills -->
+  <h3>Soft Skills</h3>
+  <ul style="display: flex; flex-wrap: wrap; gap: 6px; list-style: none; padding: 0; margin: 0;">
+    <li style="background: #f2f2f2; padding: 4px 10px; border-radius: 12px;">Communication</li>
+    <li style="background: #f2f2f2; padding: 4px 10px; border-radius: 12px;">Team Collaboration</li>
+    <li style="background: #f2f2f2; padding: 4px 10px; border-radius: 12px;">Problem-Solving</li>
+    <li style="background: #f2f2f2; padding: 4px 10px; border-radius: 12px;">Adaptability</li>
+    <li style="background: #f2f2f2; padding: 4px 10px; border-radius: 12px;">Project Management</li>
+    <li style="background: #f2f2f2; padding: 4px 10px; border-radius: 12px;">Critical Thinking</li>
+  </ul>
+  <h3>Languages</h3>
+  <ul style="display: flex; flex-wrap: wrap; gap: 6px; list-style: none; padding: 0; margin: 0;">
+    <li style="background: #f2f2f2; padding: 4px 10px; border-radius: 12px;">French <span style="color: #555; font-size: 0.95em;">– Bilingual</span></li>
+    <li style="background: #f2f2f2; padding: 4px 10px; border-radius: 12px;">Arabic <span style="color: #555; font-size: 0.95em;">– Native</span></li>
+    <li style="background: #f2f2f2; padding: 4px 10px; border-radius: 12px;">English <span style="color: #555; font-size: 0.95em;">– Fluent</span></li>
+    <li style="background: #f2f2f2; padding: 4px 10px; border-radius: 12px;">Spanish <span style="color: #555; font-size: 0.95em;">– Intermediate</span></li>
+    <li style="background: #f2f2f2; padding: 4px 10px; border-radius: 12px;">Korean <span style="color: #555; font-size: 0.95em;">– Beginner</span></li>
   </ul>
 </section>
 
 
       <section id="certifications">
         <h1>Certifications</h1>
-        <ul>
-          <li>AWS Security Essentials (AWS)</li>
-          <li>AWS Technical Essentials (AWS)</li>
-          <li>Deep Learning Specialization (Coursera)</li>
-          <li>Generative AI with LLMs (AWS/Coursera)</li>
-          <li>Google Project Management (Google)</li>
-          <li>Programming with JavaScript (Meta)</li>
-        </ul>
-      </section>
+        <div class="certifications-list">
+          <div class="cert-col">
+            <ul class="cert-list">
+              <li>
+                <img src="assets/aws.png" alt="AWS">
+                AWS Security Essentials
+              </li>
+              <li>
+                <img src="assets/aws.png" alt="AWS">
+                AWS Technical Essentials
+              </li>
+              <li>
+                <img src="assets/aws.png" alt="AWS">
+                <img src="assets/coursera.png" alt="Coursera" class="small-icon">
+                Generative AI with LLMs
+                </li>
+              </ul>
+              </div>
+              <div class="cert-col">
+              <ul class="cert-list">
+                <li>
+                <img src="assets/coursera.png" alt="Coursera">
+                Deep Learning Specialization
+                </li>
+                <li>
+                <img src="assets/google.png" alt="Google">
+                Google Project Management
+                </li>
+                <li>
+                <img src="assets/meta.png" alt="Meta">
+                Programming with JavaScript
+                </li>
+              </ul>
+              </div>
+            </div>
+            </section>
+            <style>
+            .certifications-list {
+              display: flex;
+              gap: 32px;
+              justify-content: flex-start;
+              flex-wrap: wrap;
+            }
+            .cert-col {
+              flex: 1 1 200px;
+            }
+            .cert-list {
+              list-style: none;
+              padding: 0;
+              margin: 0;
+            }
+            .cert-list li {
+              display: flex;
+              align-items: center;
+              margin-bottom: 14px;
+              gap: 10px;
+            }
+            .cert-list img {
+              width: 28px;
+              height: 28px;
+              margin: 0;
+            }
+            .cert-list .small-icon {
+              width: 24px;
+              height: 24px;
+            }
+            @media (min-width: 701px) {
+              .certifications-list {
+              flex-direction: row;
+              }
+              .cert-col {
+              width: 50%;
+              }
+            }
+            @media (max-width: 700px) {
+              .certifications-list {
+              flex-direction: row;
+              gap: 0;
+              }
+              .cert-col {
+              width: 100%;
+              }
+              .cert-list li {
+              margin-bottom: 14px;
+              }
+            }
+            </style>
 
       <section id="writings">
         <h1>Writings</h1>
